@@ -4,13 +4,15 @@ html{
 }
 
 .sm-article{
+    width: 255px;
+    height: 400px;
     background-color: #fff;
     box-sizing: border-box;
 
 }
 
 .banner{
-    width: ;
+    width: 255px;
     height: ;
     margin-bottom: 30px;
 }
