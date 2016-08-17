@@ -1,3 +1,5 @@
+
+
 body{
     background-color: #f5f5f5;
     border-radius: 0 !important;
@@ -17,16 +19,17 @@ body{
 
 }
 
-.short-article{
+.article-thumbnail{
 
-    height: 260px;
+    height: auto;
     background-color: #fff;
-    overflow: hidden;
+
     margin-bottom: 30px;
 
 }
 
-.short-article-img{
+.article-thumbnail-img{
+    position: relative;
     display: block;
     float: left;
     width: 300px;
@@ -48,6 +51,7 @@ h3{
 }
 
 .short-article-text{
+    position: relative;
     height: 78px;
     overflow: hidden;
 
