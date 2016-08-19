@@ -1,20 +1,25 @@
 
 
+
+
+
+
+
+
+
+
+
+
 body{
     background-color: #fff;
     border-radius: 0 !important;
-    padding-top: 90px;
+    padding: 90px 0 0 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-.wrapper{
-    display: block;
 
-    position: relative;
-    box-sizing: border-box;
-    z-index: 99;
-    overflow: visible;
-}
+
+
 
 .navbar{
 
