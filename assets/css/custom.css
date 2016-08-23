@@ -75,6 +75,7 @@
 }
 
 #nav_list{
+
     cursor: pointer;
     width: auto;
     height: 30px;
@@ -110,7 +111,7 @@ body{
 
 
 .navbar{
-
+    position: absolute;
     height: 60px;
     background-color: #009688;
 }
