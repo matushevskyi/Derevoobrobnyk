@@ -14,24 +14,25 @@ body {
     border: 0;
 }
 
-a{
+a:hover{
     cursor: pointer;
-}
-
-.portal-logo{
-
-
+    text-decoration: none;
 }
 
 .offcanvas-btn{
     display: block;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-toggle{
+    border: 0;
+    border-radius: 0;
 }
 
 .navbar-brand{
     padding: 10px 15px 10px 15px;
 }
-
-
 
 .nav-item{
     padding: 12px 15px 12px 15px;
@@ -45,10 +46,6 @@ a{
 .form-control{
 
 }
-
-
-
-
 
 .main-article {
     margin-bottom: 60px;
@@ -80,17 +77,24 @@ a{
     overflow: hidden;
 }
 
-h3{
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
 h2{
 
     line-height: 1.4;
     margin-top: 0;
     margin-bottom: 15px;
+    color: ;
 }
+
+h2:hover{
+
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
 
 .main-tag{
     font-size: 14px;
@@ -158,9 +162,33 @@ h2{
 }
 
 .footer {
-    background: #424242;
-    height: 120px;
+    background-color: #212121;
+    height: 60px;
     position: static;
     bottom: 0;
     width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.social-btn{
+    color: #9d9d9d;
+    font-size: 24px;
+}
+
+.social-btn:hover{
+    color: #fff;
+}
+
+.pr{
+    color: #9d9d9d;
+    margin: 0;
+}
+
+.pr-link{
+    color: #9d9d9d;
+}
+
+.pr-link:hover{
+    color: #fff;
 }
