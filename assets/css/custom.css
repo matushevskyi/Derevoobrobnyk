@@ -34,28 +34,37 @@ a:hover{
     padding: 10px 15px 10px 15px;
 }
 
-.nav-item{
-    padding: 12px 15px 12px 15px;
+.nav{
+    margin-right: 15px;
 }
 
-.form-control,
-.btn{
+.form-control, .btn{
+    border-radius: 0;
+}
+
+.search-btn{
+    background-color: #009688;
+    color: #fff;
+}
+
+.form-control, .btn:focus{
     border-radius: 0;
 }
 
 .form-control{
-
+    background-color: #424242;
+    border: 0;
+    color: #9d9d9d;
 }
 
 .main-article {
     margin-bottom: 60px;
-    overflow: hidden;
 }
 
 .main-article img{
     width: 100%;
-    height: 390px;
-    background-color: gray;
+    height: auto;
+    overflow: hidden;
 }
 
 .article-thumbnail{
@@ -68,13 +77,14 @@ a:hover{
 }
 
 .article-thumbnail-img{
-    position: relative;
-    display: block;
-    float: left;
     width: 100%;
-    height: 240px;
-    background-color: gray;
+    height: auto;
     overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.article-thumbnail-img:hover{
+
 }
 
 h2{
