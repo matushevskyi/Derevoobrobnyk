@@ -9,7 +9,7 @@ body {
 }
 
 .tag-menu{
-    width: 200px;
+    width: 300px;
     background-color: #263238;
     border: 0;
 }
@@ -47,7 +47,7 @@ a:hover{
     color: #fff;
 }
 
-.form-control, .btn:focus{
+.form-control:focus{
     border-radius: 0;
 }
 
@@ -88,11 +88,11 @@ a:hover{
 }
 
 h2{
-
+    font-weight: 600;
     line-height: 1.4;
     margin-top: 0;
     margin-bottom: 15px;
-    color: ;
+    color: #424242;
 }
 
 h2:hover{
@@ -171,6 +171,21 @@ h3{
     margin-right: 30px;
 }
 
+.pagination li a{
+    width: 36px;
+    height: 36px;
+    border: 0;
+    font-size: 18px;
+    color: #757575;
+    font-weight: 600;
+}
+
+.pagination li a:hover{
+    background-color: #009688;
+    border-radius: 100%;
+    color: #fff;
+}
+
 .footer {
     background-color: #212121;
     height: 60px;
@@ -179,6 +194,7 @@ h3{
     width: 100%;
     padding-top: 18px;
     padding-bottom: 18px;
+    margin-top: 30px;
 }
 
 .social-btn{
