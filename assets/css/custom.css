@@ -43,6 +43,12 @@ a:hover{
 }
 
 .search-btn{
+    background-color: #26A69A;
+    color: #222;
+
+}
+
+.search-btn:hover{
     background-color: #009688;
     color: #fff;
 }
@@ -102,20 +108,31 @@ h2:hover{
 h3{
     margin-top: 0;
     margin-bottom: 15px;
+    color: #009688;
+}
+
+h3:hover{
+    color: #00695C;
 }
 
 
 
 .main-tag{
     font-size: 14px;
-    background-color: #607D8B;
+    font-weight: 400;
+    background-color: #26A69A;
     margin-right: 15px;
+
 }
 
-.article-details{
+.main-tag:hover{
+    background-color: #009688;
+}
+
+.article-details, .article-details a{
 
     font-size: 14px;
-    color: #607D8B;
+    color: #757575;
 
 }
 
