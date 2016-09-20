@@ -74,6 +74,15 @@
     }
 }
 
+@media (max-width: 480px){
+    .company-name, .article-comments, .post-date{
+        display: block;
+    }
+    .company-name, .article-comments{
+        margin-bottom: 6px;
+    }
+}
+
 html, body {
     height: 100%;
 }
@@ -84,15 +93,14 @@ body {
     padding: 80px 0 0 0;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 .tag-menu{
     width: 300px;
     background-color: #263238;
     border: 0;
-}
-
-a:hover{
-    cursor: pointer;
-    text-decoration: none;
 }
 
 .offcanvas-btn{
@@ -150,18 +158,20 @@ a:hover{
     overflow: hidden;
 }
 
+.main-article img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
  h1{
 
  }
 
-
 .article-thumbnail{
-
     height: auto;
     background-color: #fff;
-
+    margin-top: 60px;
     margin-bottom: 30px;
-
 }
 
 .article-thumbnail-img{
@@ -172,7 +182,7 @@ a:hover{
 }
 
 .article-thumbnail-img:hover{
-
+    opacity: 0.9;
 }
 
 h2{
@@ -184,7 +194,7 @@ h2{
 }
 
 h2:hover{
-
+    text-decoration: underline;
 }
 
 h3{
@@ -194,40 +204,37 @@ h3{
 }
 
 h3:hover{
-    color: #00695C;
+    text-decoration: underline;
 }
 
+.company-link:hover{
+    color: #009688;
+}
 
+.comment:hover{
+    color: #009688;
+}
 
 .main-tag{
     font-size: 14px;
     font-weight: 400;
     background-color: #26A69A;
     margin-right: 15px;
-
 }
 
 .main-tag:hover{
     background-color: #009688;
+    text-decoration-line: none;
 }
 
 .article-details, .article-details a{
-
     font-size: 14px;
     color: #757575;
-
 }
 
-.company-name,
-.post-date,
-.article-comments{
+.company-name, .post-date, .article-comments{
     margin-right: 15px;
 }
-
-.post-date{
-
-}
-
 
 .article-thumbnail-text{
     display: block;
@@ -245,29 +252,26 @@ h3:hover{
     margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .article-thumbnail-divider{
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .banner{
-    width: 165px;
+    width: 100%;
     height: 240px;
     margin-bottom: 30px;
     background-color: #9d9d9d;
     margin-right: 30px;
+    cursor: pointer;
+}
+
+.horizontal-banner{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 30px;
+    background-color: #9d9d9d;
+    cursor: pointer;
 }
 
 .pagination li a{
