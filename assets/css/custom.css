@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1000px) {
+@media(max-width: 1200px) {
     .navbar-header {
         float: none;
     }
@@ -12,9 +12,18 @@
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
-    .navbar-form{
-        display: block;
+    .navbar-form {
         width: 100%;
+        display: table-cell;
+        padding: 10px 15px;
+        margin-top: 8px;
+        margin-right: -15px;
+        margin-bottom: 8px;
+        margin-left: -15px;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);
     }
     .navbar-fixed-top {
         top: 0;
@@ -111,45 +120,12 @@ a:hover{
     display: block;
     border: 0;
     border-radius: 0;
-}
 
-.navbar-toggle{
-    border: 0;
-    border-radius: 0;
-    margin-right: 0;
-}
-
-.navbar-brand{
-    padding: 10px 15px 10px 15px;
-}
-
-.nav{
-    margin-right: 15px;
-}
-
-.form-control, .btn{
-    border-radius: 0;
 }
 
 .search-btn{
-    background-color: #26A69A;
-    color: #222;
-
-}
-
-.search-btn:hover{
-    background-color: #009688;
     color: #fff;
-}
-
-.form-control:focus{
-    border-radius: 0;
-}
-
-.form-control{
-    background-color: #424242;
-    border: 0;
-    color: #9d9d9d;
+    background-color: #009688;
 }
 
 .main-article {
@@ -191,7 +167,7 @@ a:hover{
 
 h2{
     font-weight: 600;
-    line-height: 1.4;
+    line-height: 1.2;
     margin-top: 0;
     margin-bottom: 15px;
     color: #424242;
@@ -244,7 +220,7 @@ h3:hover{
     display: block;
     display: -webkit-box;
     max-width: 100%;
-    height: 96px;
+    height: 100px;
     margin: 0 auto;
     font-size: 16px;
     line-height: 1.6;
@@ -261,20 +237,17 @@ h3:hover{
     margin-bottom: 30px;
 }
 
-.banner{
-    width: 100%;
+.vertical-banner{
+    width: 165px;
     height: 240px;
     margin-bottom: 30px;
-    background-color: #9d9d9d;
-    margin-right: 30px;
     cursor: pointer;
 }
 
 .horizontal-banner{
     width: 100%;
-    height: 180px;
+    height: auto;
     margin-bottom: 30px;
-    background-color: #9d9d9d;
     cursor: pointer;
 }
 
@@ -299,8 +272,8 @@ h3:hover{
     position: static;
     bottom: 0;
     width: 100%;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     margin-top: 30px;
 }
 
@@ -314,6 +287,7 @@ h3:hover{
 }
 
 .pr{
+    float: right;
     color: #9d9d9d;
     margin: 0;
 }
@@ -325,3 +299,11 @@ h3:hover{
 .pr-link:hover{
     color: #fff;
 }
+
+.align{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
