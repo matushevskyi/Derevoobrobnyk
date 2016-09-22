@@ -68,24 +68,28 @@
                     <a class="navbar-brand" href="index.html"><img src="assets/img/do-logo.png"></a>
                 </div>
 
-                <div class="navbar-collapse collapse navbar-right" id="navbar-collapsible">
+                <div class="navbar-collapse collapse" id="navbar-collapsible">
 
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-left">
                         <li class="active"><a href=""><b>Новини</b></a></li>
                         <li><a href=""><b>Статті</b></a></li>
                         <li><a href=""><b>Оголошення</b></a></li>
                         <li><a href=""><b>Каталог</b></a></li>
                         <li><a href=""><b>Про нас</b></a></li>
                     </ul>
-
+                    <!--Search form-->
                     <form class="navbar-form pull-right">
-                        <div class="form-group" style="display:inline;">
+                        <div class="form-group">
                             <div class="input-group">
-                                <input class="form-control search-form" type="text">
-                                <span class="input-group-addon btn-default search-btn"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                <input class="form-control search-form" type="text" name="search" placeholder="Пошук">
+                                <span class="input-group-addon search-btn"><i class="fa fa-search" aria-hidden="true"></i></span>
                             </div>
                         </div>
                     </form>
+                    <div class="userpic">
+                        <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14355686_719745264855103_2505355572040005652_n.jpg?oh=794b6dfbb61c81d9cccf8ac7b3087166&oe=5880FB5C" alt="" class="img-circle">
+                    </div>
+
 
                 </div>
 
@@ -101,8 +105,8 @@
                     <div class="clearfix">
 
                         <main role="main">
-                            <!--Main article-->
-                            <section class="row main-article">
+                            <!--Featured article-->
+                            <section class="row featured-article">
                                 <article class="col-xs-12 col-md-12">
                                     <figure class="wp-caption">
                                         <img class="img-responsive" src="assets/img/forestry.jpeg">
@@ -372,14 +376,14 @@
         <!--Portal footer-->
         <footer class="footer">
             <div class="container footer-content">
-                <div class="pull-left align">
+                <div class="pull-left social">
                     <a class="social-btn" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                     <a class="social-btn" href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
                     <a class="social-btn" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                 </div>
-                <div class="pull-right align">
-                    <p class="pr">Powered by <a class="pr-link" href="#"><b>Profireader</b></a></p>
-                </div>
+
+                    <div class="pr pull-right">Powered by <a class="pr-link" href="#"><b>Profireader</b></a></div>
+
             </div>
         </footer>
 
