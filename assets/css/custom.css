@@ -123,9 +123,22 @@ a:hover{
 
 }
 
+.search-form{
+    border: 0;
+    background-color: #424242;
+    color: #9d9d9d;
+}
+
 .search-btn{
-    color: #fff;
+    color: #000;
     background-color: #009688;
+    border: 0;
+}
+
+.search-btn:hover{
+    cursor: pointer;
+    background-color: #009688;
+    color: #fff;
 }
 
 .main-article {
