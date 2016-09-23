@@ -149,10 +149,14 @@ a:hover {
     height: 48px;
 }
 
+.userpic:hover, .pr-btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
 .userpic img{
     width: 48px;
     height: 48px;
-    background-color: #5e5e5e;
     margin-top: 6px;
     margin-bottom: 6px;
     float: right;
