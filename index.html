@@ -74,9 +74,16 @@
                         <li><a href=""><b>Каталог</b></a></li>
                         <li><a href=""><b>Про нас</b></a></li>
                     </ul>
-
-                    <div class="userpic">
-                        <a href="#"><img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14355686_719745264855103_2505355572040005652_n.jpg?oh=794b6dfbb61c81d9cccf8ac7b3087166&oe=5880FB5C" alt="" class="img-circle"></a>
+                    <!--Profireader button-->
+                    <div>
+                        <!--If user is not logged in-->
+                        <a class="pr-btn" href="#">
+                            <img src="assets/img/pr-btn.svg">
+                        </a>
+                        <!--If user is logged in-->
+                        <a class="userpic hidden" href="#">
+                            <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/14355686_719745264855103_2505355572040005652_n.jpg?oh=794b6dfbb61c81d9cccf8ac7b3087166&oe=5880FB5C" alt="" class="img-circle">
+                        </a>
                     </div>
                     <!--Search form-->
                     <form class="navbar-form pull-right">
@@ -87,10 +94,6 @@
                             </div>
                         </div>
                     </form>
-
-
-
-
                 </nav>
             </div>
         </header>
