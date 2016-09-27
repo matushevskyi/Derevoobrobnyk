@@ -38,7 +38,7 @@ a:hover {
 
 /*Header settings*/
 
-@media(max-width: 1096px) {
+@media(max-width: 1170px) {
     .navbar-header {
         float: none;
     }
