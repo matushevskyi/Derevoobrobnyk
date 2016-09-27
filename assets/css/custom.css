@@ -233,15 +233,11 @@ a:hover {
         margin-top: 0px;
         line-height: 1.3;
         font-weight: 600;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
 
     .fa-caption-text h1:hover {
         text-decoration: underline;
-    }
-
-    .main-tag {
-        margin-top: 0 !important;
     }
 
     .featured-article-details .main-tag {
@@ -402,6 +398,15 @@ h3:hover {
     margin-bottom: 30px;
 }
 
+.event-date {
+    margin-bottom: 6px;
+}
+
+.event-date, .event-location {
+    color: #009688;
+    font-size: 14px;
+}
+
 /*Banners settings*/
 
 .vertical-banner {
@@ -484,6 +489,14 @@ h3:hover {
     color: #fff;
 }
 
+/*Company page settings*/
+
+/*.company-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    height: 1200px;
+}*/
 
 
 
