@@ -1,10 +1,13 @@
 /*Common settings*/
 
 @media (max-width: 480px){
-    .company-name, .article-comments, .post-date {
+    .company-name,
+    .article-comments,
+    .post-date {
         display: block;
     }
-    .company-name, .article-comments {
+    .company-name,
+    .article-comments {
         margin-bottom: 6px;
     }
 
@@ -33,7 +36,6 @@ a:hover {
 
 .offcanvas-btn {
     display: block;
-
 }
 
 /*Header settings*/
@@ -51,7 +53,8 @@ a:hover {
         display: block;
     }
 
-    .navbar-collapse, .navbar-form {
+    .navbar-collapse,
+    .navbar-form {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
@@ -160,7 +163,8 @@ a:hover {
 
 /*Profireader button*/
 
-.pr-btn, .userpic img {
+.pr-btn,
+.userpic img {
     width: 42px;
     height: 42px;
     margin: 9px 15px 9px 15px;
@@ -168,7 +172,8 @@ a:hover {
     overflow: hidden;
 }
 
-.userpic:hover, .pr-btn:hover {
+.userpic:hover,
+.pr-btn:hover {
     cursor: pointer;
     opacity: 0.9;
 }
@@ -306,7 +311,6 @@ a:hover {
 .event-article-thumbnail {
     height: auto;
     background-color: #fff;
-
     margin-bottom: 30px;
 }
 
@@ -365,12 +369,15 @@ a:hover {
     text-decoration-line: none;
 }
 
-.article-details, .article-details a {
+.article-details,
+.article-details a {
     font-size: 14px;
     color: #757575;
 }
 
-.company-name, .post-date, .article-comments {
+.company-name,
+.post-date,
+.article-comments {
     margin-right: 15px;
 }
 
@@ -440,7 +447,12 @@ a:hover {
     color: #009688;
 }
 
-.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+.pagination .active a,
+.pagination .active a:focus,
+.pagination .active a:hover,
+.pagination .active span,
+.pagination .active span:focus,
+.pagination .active span:hover {
     z-index: 3;
     color: #009688;
     cursor: default;
@@ -492,16 +504,30 @@ a:hover {
 
 /*Company page settings*/
 
-/*.company-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    height: 1200px;
-}*/
-
 .company-menu {
     margin-bottom: 30px;
 }
 
+.company-header {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    background-color: #e3e3e3;
+}
+.nav-pills li a {
+    background-color: #EEEEEE;
+    border-radius: 0;
+    color: #757575;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:focus,
+.nav-pills li.active a:hover {
+    background-color: #009688;
+}
+
+.nav-pills li a:hover {
+    background-color: #E0E0E0;
+}
 
 
